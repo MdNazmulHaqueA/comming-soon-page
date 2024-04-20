@@ -114,3 +114,64 @@ p {
   max-width: 18ch;
   margin-bottom: 24px;
 }
+
+/* Responsive styles */
+
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+  }
+  h3 {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3.25rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+    line-height: 3.25rem;
+  }
+  .left-container {
+    align-items: center;
+  }
+  .logo img {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+  }
+  .bottom-info {
+    margin-top: 32px;
+  }
+  .logo img {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+  }
+  .bottom-info {
+    justify-content: flex-start;
+  }
+}
