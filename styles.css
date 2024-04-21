@@ -123,6 +123,12 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  transition: text-all 0.5s;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #354042;
 }
 
 .text-colored {
@@ -204,12 +210,15 @@ a {
     background-size: 100% 100%;
     gap: 0;
     padding-bottom: 0;
+    margin-bottom: 130px;
   }
   .logo img {
     padding: 80px 120px;
   }
   .right-container {
     width: 100%;
+    padding-top: 130px;
+    justify-content: center;
   }
 }
 
