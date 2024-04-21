@@ -115,7 +115,7 @@ p {
   margin-bottom: 24px;
 }
 
-/* Responsive styles */
+/* Responsive styles start*/
 
 @media screen and (max-width: 1440px) {
   h1 {
@@ -175,3 +175,43 @@ p {
     justify-content: flex-start;
   }
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  .left-container {
+    width: 100%;
+    background-size: 100% 100%;
+    gap: 0;
+    padding-bottom: 0;
+  }
+  .logo img {
+    padding: 80px 120px;
+  }
+  .right-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  h3 {
+    font-size: 1rem;
+    line-height: 2.25rem;
+  }
+  .logo img {
+    padding: 80px 40px;
+  }
+  .right-container {
+    margin-top: 40px;
+  }
+  .bottom-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+/* Responsive styles end*/
